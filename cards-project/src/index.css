@@ -1,0 +1,91 @@
+body {
+  background-color: gray;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  height: 100vh; /* This centers the card on the whole screen */
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  height: 350px;
+  width: 300px;
+  border: 2px solid black;
+  background-color: pink;
+  border-radius: 20px;
+  padding: 15px; /* Added padding so items don't touch the edges */
+}
+
+/* This is the container for the logo and button */
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover; /* Keeps the logo from looking squished */
+}
+
+.card button {
+  height: 30px;
+  width: 80px; /* Increased from 60px so "Save + Icon" fits inside */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.middle {
+  padding-top: 30px;
+}
+.firstspan {
+  font-weight: bold;
+}
+.secondspan {
+  color: gray;
+  padding: 10px;
+}
+.heading {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+.jobtype {
+  margin-top: 15px;
+}
+.thirdspan {
+  background-color: whitesmoke;
+  margin: 10px;
+  padding: 6px;
+  border-radius: 10px;
+}
+.fourthspan {
+  background-color: whitesmoke;
+  margin: 10px;
+  padding: 6px;
+  border-radius: 10px;
+}
+.lastdiv {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+.lastdiv p {
+  color: white;
+  margin-top: 0px;
+}
+.lastdiv button {
+  background-color: black;
+  color: white;
+  margin: 20px;
+  height: 35px;
+  width: 90px;
+  border-radius: 10px;
+}
