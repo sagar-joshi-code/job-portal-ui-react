@@ -40,6 +40,11 @@ body {
   align-items: center;
   justify-content: center;
   gap: 5px;
+  border-radius: 10px;
+  transition: 1s;
+}
+.card button:hover {
+  background-color: aqua;
 }
 
 .middle {
