@@ -61,7 +61,7 @@ const App = () => {
     {
       id: 6,
       companyName: "Netflix",
-      img: "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
+      img: "https://images.ctfassets.net/y2ske730sjqp/5QQ9SVIdc1tmkqrtFnG9U1/de758bba0f65dcc1c6bc1f31f161003d/BrandAssets_Logos_02-NSymbol.jpg?w=940",
       time: "10 days ago",
       post: "Backend Engineer (Java)",
       tag1: "Full-time",
@@ -72,7 +72,7 @@ const App = () => {
     {
       id: 7,
       companyName: "Tesla",
-      img: "https://upload.wikimedia.org/wikipedia/commons/b/bd/Tesla_Motors.svg",
+      img: "https://static.vecteezy.com/system/resources/previews/020/336/484/non_2x/tesla-logo-tesla-icon-transparent-png-free-vector.jpg",
       time: "4 days ago",
       post: "Autopilot Software Lead",
       tag1: "Full-time",
@@ -83,7 +83,7 @@ const App = () => {
     {
       id: 8,
       companyName: "Adobe",
-      img: "https://upload.wikimedia.org/wikipedia/commons/d/d3/Adobe_Corporate_logo.svg",
+      img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAY1BMVEX////+9fX+9/b96+vpAAD4xsXyjYrqEADqAADuVlL2s7HyhoPsNS/61tb2rq3wbGjrIxzrLyn1pqTzmJb60tHvZmP3vLv4wcDzk5HtRkL73t3xeXb97ezsQTzuWlb62djqGQ+7TL0FAAAAwElEQVR4AbWQVQLDMAxDF06GZab7n3KxyvBblWy9gNLH/WLci10zISF1CbU0XtZdQmkgKS7Yc4avC/i2ZqJn9pFmht8T/NHEd0CRwiNjNFFGMT7JAY4uE/Sx6QHayXQWg3Ysm5fLURQ7WFpvBfMSxm5ZNcahskCZbWANh1PZIFK7Mg5Wj02HSNUCI8Bv//l4T00jZw2GJEm+GxsOgrGzZD7/jwgIB59l0ymSGeZzbMV8JBQZoPj0qz4eNmRQtpv0B4L4C2q5kuOCAAAAAElFTkSuQmCC",
       time: "8 days ago",
       post: "UX/UI Designer",
       tag1: "Part-time",
@@ -94,7 +94,7 @@ const App = () => {
     {
       id: 9,
       companyName: "NVIDIA",
-      img: "https://upload.wikimedia.org/wikipedia/commons/2/21/Nvidia_logo.svg",
+      img: "https://iprsoftwaremedia.com/219/files/202512/692f50633d6332b6efbbc605_nvidia-logo-vert-wht/nvidia-logo-vert-wht_prv.png",
       time: "12 days ago",
       post: "AI Research Scientist",
       tag1: "Full-time",
@@ -105,7 +105,7 @@ const App = () => {
     {
       id: 10,
       companyName: "Uber",
-      img: "https://upload.wikimedia.org/wikipedia/commons/5/58/Uber_logo_2018.svg",
+      img: "https://static.vecteezy.com/system/resources/thumbnails/050/816/820/small/uber-transparent-icon-free-png.png",
       time: "7 days ago",
       post: "Site Reliability Engineer",
       tag1: "Contract",
@@ -125,6 +125,8 @@ const App = () => {
             post={elem.post}
             tag1={elem.tag1}
             tag2={elem.tag2}
+            pay={elem.pay}
+            city={elem.city}
           />
         );
       })}

@@ -14,20 +14,20 @@ const Card = (props) => {
         </div>
       </div>
       <div className="middle">
-        <span className="firstspan"></span>
-        <span className="secondspan"></span>
-        <div className="heading"></div>
+        <span className="firstspan">{props.company}</span>
+        <span className="secondspan">{props.time}</span>
+        <div className="heading">{props.post}</div>
       </div>
 
       <div className="jobtype">
-        <span className="thirdspan"></span>
-        <span className="fourthspan"></span>
+        <span className="thirdspan">{props.tag1}</span>
+        <span className="fourthspan">{props.tag2}</span>
       </div>
 
       <div className="lastdiv">
         <div>
-          <h3></h3>
-          <p></p>
+          <h3>{props.pay}</h3>
+          <p>{props.city}</p>
         </div>
         <div>
           <button>Apply now</button>
