@@ -1,5 +1,5 @@
 body {
-  background-color: gray;
+  background-color: lightblue;
 }
 
 .parent {
@@ -81,6 +81,7 @@ body {
   margin-top: 70px;
   display: flex;
   justify-content: space-around;
+  border-top: 1px solid white;
 }
 .lastdiv p {
   color: white;
